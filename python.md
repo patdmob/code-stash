@@ -14,7 +14,7 @@ def register_function(register_type="first"):
 
     >>> @register_function("second")
     >>> def some_func(a,b):
-    >>>     return a + b
+    ...`     return a + b
     >>> register_2
     [<function __main__.some_func(a,b)>]
     """
